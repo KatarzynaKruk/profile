@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color:aliceblue;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.white-container {
+border-radius: 10px;
+background-color: white;
+padding: 30px;
+margin: 30px;
+box-shadow: 0 15px 35 px rgba(50, 50, 93, 0.1);
+text-align: center;
+}
+
+#circle-picture {
+border-radius: 250px;
+width: 250px;
+height: auto;
+}
+
+h1 {
+  color:brown;
+  border-color: crimson;
+   -webkit-text-stroke: 1px crimson;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 32px;
+  line-height: 2;
+}
+
+h2 {
+  color: #202540;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  line-height: 2;
+}
+
+#button-red {
+  text-decoration: none;
+  font-weight: bold;
+  color:crimson;
+}
+
+.fa-github {
+  color:crimson;
+}
+
+.fa-linkedin {
+  color:crimson;
+}
+
+#social-media-follow-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 32px;
+}
